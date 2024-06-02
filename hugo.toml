@@ -3,3 +3,13 @@ languageCode = 'en-us'
 title = 'Sanket Gandhi'
 theme = "paper"
 publishDir = "docs"
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'sighmoid'               # twitter.com/YOUR_TWITTER_ID
+  github = 'sanky29'                 # github.com/YOUR_GITHUB_ID
+  linkedin = 'sanketgandhi29'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  rss = true                                # show rss icon
