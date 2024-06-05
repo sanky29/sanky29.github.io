@@ -1,6 +1,5 @@
 +++
-title = 'Publications'
-date = 2024-06-05T14:47:43+05:30
-type = 'publications'
+title = '_Index'
+date = 2024-06-05T15:15:51+05:30
 +++
-Coming soon
+comming soon
