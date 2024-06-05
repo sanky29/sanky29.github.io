@@ -63,15 +63,21 @@
 
   </div>
   </div>
+  <!-- CSS & JS -->
+  {{ $main := resources.Get "main.css" }}
+  <!---->
+  {{ $custom := resources.Get "custom.css" }}
+  <!---->
+  {{ $css := slice $main $custom | resources.Concat "main.css" | minify }}
   <div class="flex justify-center w-full text-2">
     <div style="font-size: 2.0em; font-weight: 470; padding-bottom: 30px;">
-        Sanket Gandhi {{ absURL "publications" }}
+        Sanket Gandhi ok
     </div>
   </div>
 <div id="my_menu"  class="flex flex-row justify-center w-full" 
 style="font-size: 1em;">
     <div id="home_header" class="px-8">
-       <a href="{{ .Site.BaseURL }}"> Home </a>
+       <a href="/"> Home </a>
     </div>
     <div id="publication_header" class="px-8">
         <a href="{{ absURL "publications" }}">Publications </a>

@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = ''
 languageCode = 'en-us'
 title = 'Sanket Gandhi'
 theme = "paper"
@@ -14,4 +14,6 @@ publishDir = "docs"
   linkedin = 'sanketgandhi29'             # linkedin.com/in/YOUR_LINKEDIN_ID
   rss = true                                # show rss icon
   showContent = 'about'
+  canonifyURLs = true
   relativeURLs = true
+
