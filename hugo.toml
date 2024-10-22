@@ -1,4 +1,4 @@
-baseURL = 'https://sanky29.github.io/'
+baseURL = 'https://sanky29.github.io'
 languageCode = 'en-us'
 title = 'Sanket Gandhi'
 theme = "paper"
