@@ -14,6 +14,7 @@ publishDir = "docs"
   linkedin = 'sanketgandhi29'             # linkedin.com/in/YOUR_LINKEDIN_ID
   rss = true                                # show rss icon
   showContent = 'about'
+  relativeURLs = false
   canonifyURLs = true
-  relativeURLs = true
+
 
