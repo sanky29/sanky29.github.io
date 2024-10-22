@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Sanket Gandhi</title>
-    <link>/publications/</link>
+    <link>//localhost:1313/publications/</link>
     <description>Recent content in Publications on Sanket Gandhi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Jun 2024 15:26:54 +0530</lastBuildDate>
-    <atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pub1</title>
-      <link>/publications/pub1/</link>
+      <link>//localhost:1313/publications/pub1/</link>
       <pubDate>Wed, 05 Jun 2024 15:26:54 +0530</pubDate>
-      <guid>/publications/pub1/</guid>
+      <guid>//localhost:1313/publications/pub1/</guid>
       <description></description>
     </item>
   </channel>
