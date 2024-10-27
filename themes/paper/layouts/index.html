@@ -1,5 +1,76 @@
 {{ define "main" }}
-    {{.Content}}
+
+<div id="description">
+    <div id="image_div">
+        <img id = "image" src="/images/file.jpeg" alt="Description of Image">
+    </div>
+    
+    <div id="description_text">
+        <div id="description_para">{{.Content}}
+        </div>   
+    </div>
+
+</div>
+
+<style>
+
+ #description_text a {
+            text-decoration: underline; /* Underlines all links */ /* Optional: Set link color */
+            color: var(--text-color);}
+
+#description_text   a:hover {
+            text-decoration: none; /* Optional: Remove underline on hover */
+        }
+#description {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+#image_div{
+    width: 20%;
+    margin-left: 2%;
+    padding: 0;
+}
+#image{
+    width: 100%;
+    margin: 0;
+    border-radius: 50%;
+    object-fit: cover; 
+    transform: scale(0.9);
+}
+#description_text{
+    padding-left: 5%;
+    width: 60%; 
+    height: 100%;
+}
+@media only screen and (max-width: 1026px) {
+    #description {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+#image_div{
+    width: 100%;
+    padding: 0;
+}
+#image{
+    border-radius: 50%;
+    object-fit: cover; 
+    transform: scale(0.5);
+}
+#description_text{
+    width: 100%; 
+    height: 50%;
+}
+}
+
+
+</style>
 {{ end }}
 
 {{define "main_style"}}
@@ -7,4 +78,7 @@
     font-weight: 470;
     border-bottom:1px solid;
 }
+
+
+
 {{end}}
