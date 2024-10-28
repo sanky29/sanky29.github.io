@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<div id="main_paper">
+  <div id="title">
+  {{.Title}}
+</div>
+<div id = "content">
+  {{.Content}}
+</div>
+</div>
+
+<style>
+
+  #main_paper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #title{
+    font-size: 2em;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  #content{
+    width: 60%;
+  }
+</style>
+  {{end}}
+
+{{define "main_style"}}
+#blog_header{
+    font-weight: 470;
+    border-bottom:1px solid;
+}
+
+{{ end }}
