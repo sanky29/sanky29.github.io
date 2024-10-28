@@ -3,9 +3,6 @@ title = 'Xlstm'
 date = 2024-10-27T19:39:03+05:30
 +++
 
-This project explores the predictability of cricket matches by leveraging machine learning techniques. As part of Assignment 3 in a machine learning course at IIT Delhi, the goal was to predict the winner of white-ball matches (ODIs and T20s) based on the first innings score and match metadata.
-
-
 A couple of weeks ago, my Twitter feed was flooded with discussions about the new xLSTM paper. Curious, I took a quick look at it. Like most papers, it first presents a problem statement, highlights the challenges in solving that problem, and finally details the approach used to address—or not address—these challenges. The xLSTM paper did this well, but it also brought me back to some fundamental questions: How does the original LSTM solve the gradient explosion and vanishing gradient problems?\
 \
 I decided to take this as an opportunity to revisit LSTMs from first principles, deriving results in simple cases to build an intuitive understanding. I thought it would be helpful to share this journey, and hopefully get some feedback.\
