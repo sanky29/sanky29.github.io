@@ -1,28 +1,86 @@
-{{define "main"}}
-<div id = "list">
+{{ define "main" }}
 
-coming soon
+<div id="pub-container">
+
+    {{ if .Pages }}
+        <ul class="pub-list">
+            {{ range .Pages.ByDate.Reverse }}
+            <li class="pub-entry">
+
+                <strong class="pub-title">{{ .Title }}</strong><br>
+
+                <div class="pub-meta">
+                    {{ .Content }}
+                </div>
+
+                <div class="pub-links">
+                    {{ with .Params.paper }}
+                    <a href="{{ . }}" target="_blank" rel="noopener">📄 Paper</a>
+                    {{ end }}
+
+                    {{ with .Params.code }}
+                    | <a href="{{ . }}" target="_blank" rel="noopener">💻 Code</a>
+                    {{ end }}
+                </div>
+
+                {{ with .Params.image }}
+                <div class="pub-image">
+                    <img src="{{ . }}" alt="Figure">
+                </div>
+                {{ end }}
+
+            </li>
+            {{ end }}
+        </ul>
+    {{ else }}
+        <p>Coming soon...</p>
+    {{ end }}
 
 </div>
 
-
 <style>
-
-    #list{
+    #pub-container {
+        display: flex;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 100%;
         width: 100%;
-        padding-left: 10%;
-        padding-right: 10%;
+    }
+
+    .pub-list {
+        width: 70%;
+        list-style-type: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .pub-entry {
+        margin-bottom: 32px;
+        line-height: 1.6;
+        text-align: left;
+    }
+
+    .pub-title {
+        font-size: 1.05rem;
+    }
+
+    .pub-links {
+        margin-top: 6px;
+    }
+
+    .pub-image img {
+        max-width: 400px;
+        margin-top: 12px;
+        border-radius: 8px;
+        display: block;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .pub-list {
+            width: 90%;
+        }
+        .pub-image img {
+            max-width: 100%;
+        }
     }
 </style>
-{{end}}
 
-{{define "main_style"}}
-#publication_header{
-    font-weight: 470;
-    border-bottom:1px solid;
-}
-{{end}}
+{{ end }}

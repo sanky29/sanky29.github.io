@@ -7,14 +7,49 @@
     
     <div id="description_text">
         <div id="description_para">{{.Content}}
+        </div>
+        <div id="recent_news">
+            <h1 id="recent_news_header"> Recent News</h1>
+                <div id="recent_news_list">
+                    {{ range first 5 (where .Site.RegularPages "Section" "updates") }}
+                    <li>
+                      <strong>{{ .Date.Format "Jan 2006" }}</strong> — {{ .Title }}
+                      <div style="margin-top:5px; color: var(--text-color);">
+                        {{ if .Params.summary }}
+                          {{ .Params.summary }}
+                        {{ else }}
+                          {{ .Content }}
+                        {{ end }}
+                      </div>
+                    </li>
+                    {{ end }}
+            </div>
         </div>   
+
+        <div id="services">
+            <h1 id="recent_news_header">Services</h1>
+        
+            <ol class="service-list">
+                {{ range first 10 (where .Site.RegularPages "Section" "services") }}
+                <li class="service-item">
+                    <strong>{{ .Title }}</strong>
+        
+                    {{ if .Content }}
+                    <div class="service-detail">
+                        {{ .Content }}
+                    </div>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ol>
+        </div>
     </div>
 
 </div>
 
 <style>
 
- #description_text a {
+#description_text a {
             text-decoration: underline; /* Underlines all links */ /* Optional: Set link color */
             color: var(--text-color);}
 
@@ -25,9 +60,6 @@
         display: flex;
         flex-direction: row;
         width: 100%;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-bottom: 5%;
         justify-content: center;
         align-items: center;
     }
@@ -43,10 +75,26 @@
     object-fit: cover; 
     transform: scale(0.9);
 }
+
+
 #description_text{
     padding-left: 5%;
     width: 60%; 
     height: 100%;
+}
+#recent_news{
+    padding-top: 5%;
+    width: 100%; 
+    height: 100%;
+}
+#services{
+    padding-top: 5%;
+    width: 100%; 
+    height: 100%;
+}
+#recent_news_header{
+    font-size: larger;
+    text-decoration: underline;
 }
 @media only screen and (max-width: 1026px) {
     #description {
@@ -54,21 +102,24 @@
         flex-direction: column;
         width: 100%;
     }
-#image_div{
-    width: 100%;
-    padding: 0;
-}
-#image{
-    border-radius: 50%;
-    object-fit: cover; 
-    transform: scale(0.5);
-}
-#description_text{
-    width: 100%; 
-    height: 50%;
-}
-}
+    #description_text {
+        width: 100%; 
+        height: 100%;
+        padding: 5%;
+    }
+    #image_div{
+        width: 60%;
+        padding: 0;
+    }
+    #image{
+        width: 100%;
+        margin: 0;
+        border-radius: 50%;
+        object-fit: cover; 
+        transform: scale(0.9);
+    }
 
+}
 
 </style>
 {{ end }}

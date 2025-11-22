@@ -1,28 +1,52 @@
 {{define "main"}}
-<div id = "list">
+<!-- <div id = "list">
 
-    <ul>
+  
         {{ range .Pages }}
-          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+          <div id="elements"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
         {{ end }}
-      </ul>
+   
 
-</div>
+</div> -->
 
-
+<div id="list">
+    {{ range $index, $page := .Pages }}
+      <div class="element">
+         <a href="{{ $page.Permalink }}">{{printf "%d. %s" (add $index 1) $page.Title }}</a>
+      </div>
+    {{ end }}
+  </div>
 <style>
 
-    #list{
-        margin-top: 3%;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 100%;
+#list {
+    margin-top: 3%;
+    display: flex; /* Needed for justify-content and align-items to work */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.2em;
+  }
+
+  .element {
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 30%;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 1.2em;
+  }
+  @media only screen and (max-width: 1026px) {
+    .element {
+        margin-bottom: 1%;
+        margin-top: 1%;
         width: 100%;
-        padding-left: 10%;
-        padding-right: 10%;
-        font-size: 2em;
-    }
+        text-align: left;
+        font-size: 1.2em;
+        text-decoration: underline;
+  }
+  }
 </style>
 {{end}}
 
