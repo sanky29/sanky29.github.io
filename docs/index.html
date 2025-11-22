@@ -264,7 +264,7 @@
   
   
   <div class="flex justify-center w-full text-2">
-    <div style="font-size: 2.0em; font-weight: 470; padding-bottom: 30px;">
+    <div style="font-size: 1.5em; font-weight: 470; padding-bottom: 30px;">
         Sanket Gandhi 
     </div>
   </div>
@@ -356,14 +356,83 @@ class="lg:hidden flex flex-row justify-start w-full">
         <div id="description_para"><p>I am a first-year PhD student in the <a href="https://scai.iitd.ac.in/">School of Artificial Intelligence</a> at <a href="(https://iitd.ac.in/)">Indian Institute of Technology Delhi</a>, co-advised by <a href="https://www.cse.iitd.ac.in/~parags/">Parag Singla</a> and <a href="https://www.cse.iitd.ac.in/~rohanpaul/">Rohan Paul</a>. I graduated with a BTech in Textile Technology and an MTech in Computer Science Engineering from the <a href="https://www.iitd.ac.in">Indian Institute of Technology Delhi</a>. I was fortunate to be advised by Parag Singla during my master&rsquo;s.<br>
 I am broadly interested in human-centric machine learning. I believe that a way to build generalized artificial intelligence is to make use of human-centric biases. One of the problems towards human-centric AI is how to segregate the dense neural information in meaningful full representation aka binding problem. I have been working on an object-centric <a href="https://arxiv.org/abs/2012.05208">binding problem</a>. I also plan to work on human-centric RL.</p>
 
+        </div>
+        <div id="recent_news">
+            <h1 id="recent_news_header"> Recent News</h1>
+                <div id="recent_news_list">
+                    
+                    <li>
+                      <strong>Nov 2025</strong> — Completed Comprehensive Examination
+                      <div style="margin-top:5px; color: var(--text-color);">
+                        
+                          <p>My proposed thesis title is: <em>Learning Disentangled Object-Centric Representation for Images and Videos</em></p>
+<p><a href="https://docs.google.com/presentation/d/1hbNSyqGvizREcfIjU3M68n9vNtbo77Ae0kkDe_d5L18/edit?usp=sharing">Presentation</a></p>
+
+                        
+                      </div>
+                    </li>
+                    
+                    <li>
+                      <strong>Aug 2025</strong> — Received the TCS Research Fellowship 🎉🎓
+                      <div style="margin-top:5px; color: var(--text-color);">
+                        
+                          
+                        
+                      </div>
+                    </li>
+                    
+                    <li>
+                      <strong>Jul 2025</strong> — Attended ICML 2025, Vancouver
+                      <div style="margin-top:5px; color: var(--text-color);">
+                        
+                          
+                        
+                      </div>
+                    </li>
+                    
+                    <li>
+                      <strong>May 2025</strong> — Our work on SAM-based Object and Attribute Discovery was accepted at the SIM Workshop at ICML 2025
+                      <div style="margin-top:5px; color: var(--text-color);">
+                        
+                          <p><a href="https://openreview.net/forum?id=Xa4w0dRNoA">Paper</a></p>
+
+                        
+                      </div>
+                    </li>
+                    
+            </div>
         </div>   
+
+        <div id="services">
+            <h1 id="recent_news_header">Services</h1>
+        
+            <ol class="service-list">
+                
+                <li class="service-item">
+                    <strong>Graduate Teaching Assistant</strong>
+        
+                    
+                    <div class="service-detail">
+                        <ul>
+<li><a href="https://lily-molybdenum-65d.notion.site/COL864-Special-Topics-in-AI-22eff35f0dab815ba643d38170a72b26">COL864</a>: Special Topics in AI (Frontiers in Autonomous Systems) — <em>Fall 2025</em></li>
+<li><a href="https://lily-molybdenum-65d.notion.site/COL778-Principles-of-Autonomous-Systems-16dff35f0dab81659db1c91a8e015205">COL778</a>: Principles of Autonomous Systems — <em>Spring 2025</em></li>
+<li>AIL722: Reinforcement Learning — <em>Fall 2024</em></li>
+<li><a href="https://www.cse.iitd.ac.in/~parags/teaching/2024/col775/">COL775</a>: Deep Learning — <em>Spring 2024</em></li>
+</ul>
+
+                    </div>
+                    
+                </li>
+                
+            </ol>
+        </div>
     </div>
 
 </div>
 
 <style>
 
- #description_text a {
+#description_text a {
             text-decoration: underline;    
             color: var(--text-color);}
 
@@ -374,9 +443,6 @@ I am broadly interested in human-centric machine learning. I believe that a way 
         display: flex;
         flex-direction: row;
         width: 100%;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-bottom: 5%;
         justify-content: center;
         align-items: center;
     }
@@ -392,10 +458,26 @@ I am broadly interested in human-centric machine learning. I believe that a way 
     object-fit: cover; 
     transform: scale(0.9);
 }
+
+
 #description_text{
     padding-left: 5%;
     width: 60%; 
     height: 100%;
+}
+#recent_news{
+    padding-top: 5%;
+    width: 100%; 
+    height: 100%;
+}
+#services{
+    padding-top: 5%;
+    width: 100%; 
+    height: 100%;
+}
+#recent_news_header{
+    font-size: larger;
+    text-decoration: underline;
 }
 @media only screen and (max-width: 1026px) {
     #description {
@@ -403,21 +485,24 @@ I am broadly interested in human-centric machine learning. I believe that a way 
         flex-direction: column;
         width: 100%;
     }
-#image_div{
-    width: 100%;
-    padding: 0;
-}
-#image{
-    border-radius: 50%;
-    object-fit: cover; 
-    transform: scale(0.5);
-}
-#description_text{
-    width: 100%; 
-    height: 50%;
-}
-}
+    #description_text {
+        width: 100%; 
+        height: 100%;
+        padding: 5%;
+    }
+    #image_div{
+        width: 60%;
+        padding: 0;
+    }
+    #image{
+        width: 100%;
+        margin: 0;
+        border-radius: 50%;
+        object-fit: cover; 
+        transform: scale(0.9);
+    }
 
+}
 
 </style>
 

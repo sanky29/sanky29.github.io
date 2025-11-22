@@ -2,14 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sanky29.github.io/updates/comphrehensive_exam/</loc>
+    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanky29.github.io/updates/</loc>
+    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanky29.github.io/updates/tcs/</loc>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sanky29.github.io/blogs/primal-dual-lp/</loc>
     <lastmod>2025-07-28T10:39:41+05:30</lastmod>
   </url><url>
-    <loc>https://sanky29.github.io/blogs/xlstm/</loc>
-    <lastmod>2024-10-27T19:39:03+05:30</lastmod>
+    <loc>https://sanky29.github.io/updates/icml_2025/</loc>
+    <lastmod>2025-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sanky29.github.io/publications/pub1/</loc>
-    <lastmod>2024-06-05T15:26:54+05:30</lastmod>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanky29.github.io/updates/workshop/</loc>
+    <lastmod>2025-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sanky29.github.io/blogs/xlstm/</loc>
+    <lastmod>2024-10-27T19:39:03+05:30</lastmod>
   </url><url>
     <loc>https://sanky29.github.io/blogs/</loc>
     <lastmod>2024-06-05T15:26:48+05:30</lastmod>
@@ -21,6 +36,10 @@
     <lastmod>2024-06-02T17:11:38+05:30</lastmod>
   </url><url>
     <loc>https://sanky29.github.io/categories/</loc>
+  </url><url>
+    <loc>https://sanky29.github.io/services/teching_assistant/</loc>
+  </url><url>
+    <loc>https://sanky29.github.io/services/</loc>
   </url><url>
     <loc>https://sanky29.github.io/tags/</loc>
   </url>

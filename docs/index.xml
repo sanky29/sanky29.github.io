@@ -8,12 +8,59 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Jun 2024 17:11:38 +0530</lastBuildDate><atom:link href="https://sanky29.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Primal Dual Lp</title>
+      <title>Completed Comprehensive Examination</title>
+      <link>https://sanky29.github.io/updates/comphrehensive_exam/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanky29.github.io/updates/comphrehensive_exam/</guid>
+      <description>My proposed thesis title is: Learning Disentangled Object-Centric Representation for Images and Videos
+Presentation</description>
+    </item>
+    
+    <item>
+      <title>Received the TCS Research Fellowship 🎉🎓</title>
+      <link>https://sanky29.github.io/updates/tcs/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanky29.github.io/updates/tcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Primal Dual in LP</title>
       <link>https://sanky29.github.io/blogs/primal-dual-lp/</link>
       <pubDate>Mon, 28 Jul 2025 10:39:41 +0530</pubDate>
       
       <guid>https://sanky29.github.io/blogs/primal-dual-lp/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Attended ICML 2025, Vancouver</title>
+      <link>https://sanky29.github.io/updates/icml_2025/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanky29.github.io/updates/icml_2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Object-Attribute Decoupled Approach for Learning Disentangled Representation for Image and Video Analysis</title>
+      <link>https://sanky29.github.io/publications/pub1/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanky29.github.io/publications/pub1/</guid>
+      <description>Sanket Gandhi, Atul, Samamnyu Mahajan, Rushil Gupta, Vishal Sharma, Arnab Kumar Mondal, Rohan Paul, Parag Singla
+ICML 2025 — SIM Workshop</description>
+    </item>
+    
+    <item>
+      <title>Our work on SAM-based Object and Attribute Discovery was accepted at the SIM Workshop at ICML 2025</title>
+      <link>https://sanky29.github.io/updates/workshop/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanky29.github.io/updates/workshop/</guid>
+      <description>Paper</description>
     </item>
     
     <item>
@@ -26,12 +73,12 @@
     </item>
     
     <item>
-      <title>Pub1</title>
-      <link>https://sanky29.github.io/publications/pub1/</link>
-      <pubDate>Wed, 05 Jun 2024 15:26:54 +0530</pubDate>
+      <title>Graduate Teaching Assistant</title>
+      <link>https://sanky29.github.io/services/teching_assistant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sanky29.github.io/publications/pub1/</guid>
-      <description></description>
+      <guid>https://sanky29.github.io/services/teching_assistant/</guid>
+      <description> COL864: Special Topics in AI (Frontiers in Autonomous Systems) — Fall 2025 COL778: Principles of Autonomous Systems — Spring 2025 AIL722: Reinforcement Learning — Fall 2024 COL775: Deep Learning — Spring 2024 </description>
     </item>
     
   </channel>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates on Sanket Gandhi</title>
+    <link>https://sanky29.github.io/updates/</link>
+    <description>Recent content in Updates on Sanket Gandhi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://sanky29.github.io/updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Completed Comprehensive Examination</title>
+      <link>https://sanky29.github.io/updates/comphrehensive_exam/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanky29.github.io/updates/comphrehensive_exam/</guid>
+      <description>My proposed thesis title is: Learning Disentangled Object-Centric Representation for Images and Videos
+Presentation</description>
+    </item>
+    
+    <item>
+      <title>Received the TCS Research Fellowship 🎉🎓</title>
+      <link>https://sanky29.github.io/updates/tcs/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanky29.github.io/updates/tcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attended ICML 2025, Vancouver</title>
+      <link>https://sanky29.github.io/updates/icml_2025/</link>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanky29.github.io/updates/icml_2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our work on SAM-based Object and Attribute Discovery was accepted at the SIM Workshop at ICML 2025</title>
+      <link>https://sanky29.github.io/updates/workshop/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanky29.github.io/updates/workshop/</guid>
+      <description>Paper</description>
+    </item>
+    
+  </channel>
+</rss>

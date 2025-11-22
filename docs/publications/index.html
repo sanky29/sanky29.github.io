@@ -264,7 +264,7 @@
   
   
   <div class="flex justify-center w-full text-2">
-    <div style="font-size: 2.0em; font-weight: 470; padding-bottom: 30px;">
+    <div style="font-size: 1.5em; font-weight: 470; padding-bottom: 30px;">
         Sanket Gandhi 
     </div>
   </div>
@@ -346,25 +346,88 @@ class="lg:hidden flex flex-row justify-start w-full">
       class="dark:prose-invert"
     >
       
-<div id = "list">
 
-coming soon
+<div id="pub-container">
+
+    
+        <ul class="pub-list">
+            
+            <li class="pub-entry">
+
+                <strong class="pub-title">An Object-Attribute Decoupled Approach for Learning Disentangled Representation for Image and Video Analysis</strong><br>
+
+                <div class="pub-meta">
+                    <p>Sanket Gandhi, Atul, Samamnyu Mahajan, Rushil Gupta, Vishal Sharma, Arnab Kumar Mondal, Rohan Paul, Parag Singla<br>
+<em>ICML 2025 — SIM Workshop</em></p>
+
+                </div>
+
+                <div class="pub-links">
+                    
+                    <a href="https://openreview.net/pdf?id=Xa4w0dRNoA" target="_blank" rel="noopener">📄 Paper</a>
+                    
+
+                    
+                </div>
+
+                
+                <div class="pub-image">
+                    <img src="/images/decoupler.png" alt="Figure">
+                </div>
+                
+
+            </li>
+            
+        </ul>
+    
 
 </div>
 
-
 <style>
-
-    #list{
+    #pub-container {
+        display: flex;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 100%;
         width: 100%;
-        padding-left: 10%;
-        padding-right: 10%;
+    }
+
+    .pub-list {
+        width: 70%;
+        list-style-type: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .pub-entry {
+        margin-bottom: 32px;
+        line-height: 1.6;
+        text-align: left;
+    }
+
+    .pub-title {
+        font-size: 1.05rem;
+    }
+
+    .pub-links {
+        margin-top: 6px;
+    }
+
+    .pub-image img {
+        max-width: 400px;
+        margin-top: 12px;
+        border-radius: 8px;
+        display: block;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .pub-list {
+            width: 90%;
+        }
+        .pub-image img {
+            max-width: 100%;
+        }
     }
 </style>
+
 
     </main>
     <footer
@@ -389,10 +452,6 @@ coming soon
   </body>
 <style>
 
-#publication_header{
-    font-weight: 470;
-    border-bottom:1px solid;
-}
 
 </style>
 </html>

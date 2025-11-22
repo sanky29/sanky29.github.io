@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Sanket Gandhi</title>
+    <link>https://sanky29.github.io/services/</link>
+    <description>Recent content in Services on Sanket Gandhi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://sanky29.github.io/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graduate Teaching Assistant</title>
+      <link>https://sanky29.github.io/services/teching_assistant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sanky29.github.io/services/teching_assistant/</guid>
+      <description> COL864: Special Topics in AI (Frontiers in Autonomous Systems) — Fall 2025 COL778: Principles of Autonomous Systems — Spring 2025 AIL722: Reinforcement Learning — Fall 2024 COL775: Deep Learning — Spring 2024 </description>
+    </item>
+    
+  </channel>
+</rss>

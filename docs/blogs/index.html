@@ -264,7 +264,7 @@
   
   
   <div class="flex justify-center w-full text-2">
-    <div style="font-size: 2.0em; font-weight: 470; padding-bottom: 30px;">
+    <div style="font-size: 1.5em; font-weight: 470; padding-bottom: 30px;">
         Sanket Gandhi 
     </div>
   </div>
@@ -346,37 +346,49 @@ class="lg:hidden flex flex-row justify-start w-full">
       class="dark:prose-invert"
     >
       
-<div id = "list">
-
-    <ul>
-        
-          <li><a href="https://sanky29.github.io/blogs/primal-dual-lp/">Primal Dual Lp</a></li>
-        
-          <li><a href="https://sanky29.github.io/blogs/xlstm/">Xlstm</a></li>
-        
-      </ul>
-
-</div>
 
 
+<div id="list">
+    
+      <div class="element">
+         <a href="https://sanky29.github.io/blogs/primal-dual-lp/">1. Primal Dual in LP</a>
+      </div>
+    
+      <div class="element">
+         <a href="https://sanky29.github.io/blogs/xlstm/">2. Xlstm</a>
+      </div>
+    
+  </div>
 <style>
 
 #list {
     margin-top: 3%;
     display: flex;  
     flex-direction: column;  
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    height: 100%;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 2em;
+    font-size: 1.2em;
   }
 
-  #list * {
-    margin: 10px;
+  .element {
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 30%;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 1.2em;
+  }
+  @media only screen and (max-width: 1026px) {
+    .element {
+        margin-bottom: 1%;
+        margin-top: 1%;
+        width: 100%;
+        text-align: left;
+        font-size: 1.2em;
+        text-decoration: underline;
+  }
   }
 </style>
 
